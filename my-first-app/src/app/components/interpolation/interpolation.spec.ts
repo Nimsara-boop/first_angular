@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MyOtherComponent } from './my-other-component';
+import { Interpolation } from './interpolation';
 
-describe('MyOtherComponent', () => {
-  let component: MyOtherComponent;
-  let fixture: ComponentFixture<MyOtherComponent>;
+describe('Interpolation', () => {
+  let component: Interpolation;
+  let fixture: ComponentFixture<Interpolation>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MyOtherComponent],
+      imports: [Interpolation],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(MyOtherComponent);
+    fixture = TestBed.createComponent(Interpolation);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
